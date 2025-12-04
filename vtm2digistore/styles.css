@@ -16,13 +16,15 @@ body {
 
 /* Seção de alerta */
 .alert-section {
-  background: #ffffff !important;
-  padding: 12px 16px;
-  border-top: 1px solid #e5e5e5;
-  border-bottom: 1px solid #e5e5e5;
-  color: #000000;
+  background-color: #000000; /* Preto Sephora */
+  color: #ffffff;           /* Texto branco */
+  padding: 12px 16px;       /* Altura controlada */
   text-align: center;
+  font-weight: 700;
+  font-size: 15px;
+  border-bottom: 3px solid #ff6d0d; /* Laranja suave (micro detalhe) */
 }
+
 
 
 /* Conteúdo principal */
@@ -153,4 +155,5 @@ body {
         width: 100px;
     }
 }
+
 
