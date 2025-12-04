@@ -4,6 +4,17 @@
         
 <script src="https://www.digistore24.com/service/digistore.js"></script>
 <script>digistoreUpsell()</script>
+        
+<script>
+ // Função para detectar o tipo de dispositivo
+ function isMobileDevice() {
+ return (typeof window.orientation !== "undefined") || (navigator.userAgent.indexOf('IEMobile') !== -1);
+ }
+ // Redirecionamento
+ if (!isMobileDevice()) {
+ window.location.href = "https://desafiocarnivoro.online/k/up/3/";
+ }
+</script>
 
         <meta name="robots" content="noindex, nofollow" />
 
