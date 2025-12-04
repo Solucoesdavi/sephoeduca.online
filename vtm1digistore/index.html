@@ -92,25 +92,33 @@
 </head>
 
 <body id="_TuSpDbat5EVHwTTgi6SZGA9D5nF2" data-page="_yBQcfoFDewP9S6ZVEvNF">
-<div class="sephora-bar"></div>
+<div class="sephora-striped-bar"></div>
 <style>
-.sephora-dual-bar {
+.sephora-striped-bar {
   width: 100%;
-  height: 84px; /* desktop */
-  background: linear-gradient(
-    to bottom,
-    #000000 0%,
-    #000000 50%,
-    #ffffff 50%,
-    #ffffff 100%
+  height: 90px; /* desktop */
+  background: repeating-linear-gradient(
+    90deg,
+    #000000 0px,
+    #000000 24px,
+    #ffffff 24px,
+    #ffffff 48px
   );
 }
 
 @media (max-width: 640px) {
-  .sephora-dual-bar {
+  .sephora-striped-bar {
     height: 64px;
+    background: repeating-linear-gradient(
+      90deg,
+      #000000 0px,
+      #000000 18px,
+      #ffffff 18px,
+      #ffffff 36px
+    );
   }
 }
+
 
 .dARbam4407496 {display: none}
 @media (max-width: 640px) {
