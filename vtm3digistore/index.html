@@ -579,21 +579,32 @@
 
         <link href="https://fonts.googleapis.com/css?family=Poppins:400,700,600|Roboto:400|Montserrat:600&amp;display=swap" rel="preload" as="style" media="all" onload="this.onload=null;this.rel='stylesheet'" />
     <style>
-/* UP 3 – Corrige fundo vermelho para preto (Sephora) */
+    <style>
+/* Faixa de alerta — versão PRETA visível */
+.alert-section {
+  display: block !important;
+  width: 100% !important;
 
-/* Fundo geral */
-.atomicat-page {
   background-color: #000000 !important;
+  color: #ffffff !important;
+
+  padding: 14px 16px !important;
+  margin: 0 !important;
+
+  text-align: center !important;
+  font-weight: 600;
+  font-size: 14px;
+
+  position: relative;
+  z-index: 9999;
 }
 
-/* Faixa superior (desktop e mobile) */
-.atomicat-container-9139391 {
-  background: #000000 !important;
+/* texto interno */
+.alert-section p {
+  margin: 0 !important;
+  color: #ffffff !important;
 }
-
-/* Mobile específico */
-@media screen and (max-width: 480px) {
-  .atomicat-container-913939
+</style>
 
     </head>
     <body id="_phj1QyRztJe22wIrAbM4l5wp2qC2" data-page="_pUgcV3tBPzUnKQW27lWv" class="atomicat-disable-selection">
