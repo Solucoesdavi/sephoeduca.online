@@ -96,25 +96,25 @@
 <style>
 .sephora-striped-bar {
   width: 100%;
-  height: 90px; /* desktop */
+  height: 56px; /* altura reduzida (desktop) */
   background: repeating-linear-gradient(
     90deg,
     #000000 0px,
-    #000000 24px,
-    #ffffff 24px,
-    #ffffff 48px
+    #000000 12px,
+    #ffffff 12px,
+    #ffffff 24px
   );
 }
 
 @media (max-width: 640px) {
   .sephora-striped-bar {
-    height: 64px;
+    height: 40px; /* mobile mais compacto */
     background: repeating-linear-gradient(
       90deg,
       #000000 0px,
-      #000000 18px,
-      #ffffff 18px,
-      #ffffff 36px
+      #000000 8px,
+      #ffffff 8px,
+      #ffffff 16px
     );
   }
 }
